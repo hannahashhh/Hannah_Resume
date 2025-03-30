@@ -1,0 +1,168 @@
+
+body{
+  background-color:#f2f5ff;
+}
+.home {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; 
+    margin: 0;  
+  }
+  
+  .profile-img {
+    max-width: 100%;
+    width: 400px;
+    height: auto;
+    border-radius: 50%;
+    border: #3F528C solid 8px;
+  }
+  
+  .welcome {
+    margin-top: 20px; 
+    font-size: 2.5rem;
+    text-align: center;
+    font-family: "Sour Gummy", sans-serif;
+    padding: 10px;
+    
+  }
+#hannah{
+    color: #3F528C;
+}
+.summary{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+.about{
+  text-align: center;
+  font-family: "Sour Gummy", sans-serif;
+}
+.about h2{
+  font-size: 3.5 rem;
+  color: #3F528C;
+}
+.experience{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+#work{
+  font-size: 3.5 rem;
+  color: #3F528C;
+  font-family: "Sour Gummy", sans-serif;
+}
+.job-1, .job-2{
+  text-align: center;
+  font-family: "Sour Gummy", sans-serif;
+}
+ul{
+  list-style-type: none;
+}
+li{
+  padding: 5px;
+}
+.education{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+.bachelors, .associcate{
+  text-align: center;
+  font-family: "Sour Gummy", sans-serif;
+  padding: 10px;
+  font-size: 35px;
+
+}
+.education h3{
+  font-size: 40px;
+  color: #3F528C;
+  font-family: "Sour Gummy", sans-serif;
+  padding: 10px;
+}
+.skills{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+.skills-list{
+  text-align: center;
+  font-family: "Sour Gummy", sans-serif;
+}
+.skills-list h3{
+  font-size: 40px;
+  color: #3F528C;
+}
+.skills-list li{
+  padding: 10px;
+  font-size: 20px;
+}
+.projects{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+.projects h3{
+  font-size: 40px;
+  color: #3F528C;
+  font-family: "Sour Gummy", sans-serif;
+}
+.projects h5{
+  font-family: "Sour Gummy", sans-serif;
+  font-size: 25px;
+  padding: 10px;
+
+}
+footer{
+  background-color: #3F528C;
+  margin: 0;
+  padding: 0;
+  padding-top: 10px;;
+  position: sticky;
+  text-align: center;
+  display: grid;
+  font-family: "Sour Gummy", sans-serif;
+}
+footer a{
+  text-decoration: none;
+  color: #d7e0fc;
+}
+footer p{
+  color: #d7e0fc;
+}
+@media (max-width: 768px) {
+  p{
+    font-size: 20px;
+  }
+  h5{
+    font-size: 22px;
+  }
+  h4{
+    font-size: 24px;
+  }
+  h3{
+    font-size: 26px;
+  }
+  h2{
+    font-size: 28px;
+  }
+  h1{
+    font-size: 30px;
+  }
+}
